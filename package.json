@@ -1,0 +1,18 @@
+{
+  "name": "lotus",
+  "version": "1.0.0",
+  "description": "Lotus.am",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack src/js/app.js dist/bundle.js"
+  },
+  "author": "Narek Grigoryan",
+  "license": "ISC",
+  "dependencies": {
+    "materialize-css": "^0.99.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}

@@ -1,0 +1,587 @@
+/*
+This template is maded for Lotus.am
+Css version => CSS3
+Using framework => Marialize CSS
+
+  *****************************************
+Template Author/Developer - Narek Grigoryan
+All rights reserved ©2017 N.G.
+  *****************************************
+*/
+
+body {
+    top: 0;
+    margin: 0;
+    background: white;
+    width: 100%;
+    z-index: 990;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+h1 {
+    margin: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 91vh;
+    margin: 0;
+    background: transparent;
+    z-index: 992;
+}
+
+/*Logo on slider*/
+
+.pl {
+    height: 35rem;
+    width: 35rem;
+    margin: auto;
+    margin-top: 0;
+}
+
+@media (max-width:740px) {
+    .pl {
+        height: 50%;
+        width: 50%;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .pl {
+        height: 100%;
+        width: 100%;
+        margin-top: 20vh;
+    }
+}
+
+.pl>img {}
+
+.ls .slides {
+    animation: pulse 4s infinite;
+}
+
+.png {
+    height: 100vh;
+}
+
+.png img {
+    width: 100%;
+    opacity: 1;
+    height: inherit;
+}
+
+.side-nav {
+    z-index: 9999 !important;
+}
+
+.pn {
+    width: 100vh;
+    height: 95vh;
+    margin-top: 3vh;
+    z-index: 90;
+}
+
+.pn img {
+    width: 50%;
+    height: 50%;
+}
+
+
+/*Navigation*/
+
+#menu {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.menu-align {}
+
+.menu-text a {
+    transition: ease .3s;
+    color: #222;
+    border-right: 1px solid #efefef;
+}
+
+.menu-text a:hover {
+    background-color: #efefef;
+    color: #c44d9d;
+    border-bottom: 1.5px solid #c44d9d;
+    transition: ease .3s;
+}
+
+.menu-top>nav {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, .6) 0%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .6) 0%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .6) 0%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+    /* IE6-9 */
+    position: fixed;
+    box-shadow: none;
+    width: 100%;
+    height: auto;
+}
+
+.top-menu-margin a {
+    font-size: 1.1rem;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, .7);
+}
+
+.top-menu-margin a:hover {
+    background-color: #c44d9d;
+}
+
+
+/*Slider Lotus*/
+
+.slider.fullscreen {
+    margin: 0;
+    animation: pulse 5s infinite;
+}
+
+.slides>li>img {
+    background-color: #000;
+    opacity: 0.8;
+    animation: zoom ease 30s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #000;
+    }
+    50% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.arrows {
+    font-weight: 100;
+    cursor: pointer;
+    z-index: 999;
+    margin-top: 35vh;
+    clear: both;
+}
+
+.next {
+    position: absolute;
+    font-size: 70px;
+    right: 2vh;
+    z-index: 99999;
+    opacity: 0.7;
+    transition: ease 0.2s;
+}
+
+.next:hover {
+    transition: ease 0.2s;
+    opacity: 1;
+}
+
+.prev {
+    position: absolute;
+    left: 2vh;
+    font-size: 70px;
+    opacity: 0.7;
+    transition: ease 0.2s;
+    z-index: 999;
+}
+
+.prev:hover {
+    transition: ease 0.2s;
+    opacity: 1;
+}
+
+
+
+.second {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -20px;
+}
+
+.second-mobile {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -20px;
+}
+
+.third {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -20px;
+}
+
+.block {
+    margin: 2vh 2vh;
+    padding: 10vh 10vh;
+    background: #f2f2f2;
+    position: relative;
+}
+
+.inner {
+    background: #3d944b;
+    padding: 5vh;
+    display: block;
+    width: 100%;
+}
+
+.line-h {
+    line-height: 2.2em;
+}
+
+.inner-1 {
+    background: #3e4294;
+    padding: 5vh;
+}
+
+.inner-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.b1-block {
+    width: 500px;
+}
+
+.slides>caption>h3 {
+    text-shadow: 2px 1px 6px rgbs(0, 0, 0, .7)
+}
+
+.uncolor {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: ease .2s;
+}
+
+.uncolor:hover {
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+    transition: ease .2s;
+}
+
+.dieta img {
+    width: 98vh;
+    height: 100vh;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.dieta {
+    height: 100vh;
+    top: 0;
+    position: relative;
+}
+
+.text-back {
+    color: #eee;
+    font-weight: 600;
+    font-size: 120px;
+    text-align: center;
+}
+
+.text-top {
+    color: rgba(0, 0, 0, .5);
+    margin-top: -110px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-desc {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.slider .car {
+    height: 200px;
+    top: -5px;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+    margin: 0;
+}
+
+@media (max-width:740px) {
+    .er .slider {
+        display: none;
+    }
+    .dieta {
+        display: none
+    }
+    .second {
+        display: none;
+    }
+}
+
+@media (min-width:741px) {
+    .second-mobile {
+        display: none;
+    }
+}
+
+.row .caro {
+    background: #eee;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    min-height: 1px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: ease 1s;
+}
+
+.row .caro:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: ease 1s;
+}
+
+.car .indicators {
+    display: none;
+}
+
+.inner-effect {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.third-margin {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+}
+
+.row .third-margin {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+.row .new-margin {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.third-background {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.third-background img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: ease .2s;
+    background-position: center;
+    height: 100%;
+}
+
+.third-background img:hover {
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(10%);
+    transition: ease .2s;
+}
+
+.poster {
+    position: absolute;
+    padding: 3vw;
+    z-index: 995;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 51, 153, 0.5);
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+.poster:hover {
+    background: rgba(102, 51, 153, 1);
+    transition: all 0.2s;
+}
+
+.poster h3 {
+    position: absolute;
+    transform: translateY(15vh);
+    transition: transform 0.2s ease 0s;
+}
+
+.poster:hover h3 {
+    transform: translateY(0px);
+    transition: transform 0.2s ease 0s;
+}
+
+.poster p {
+    position: absolute;
+    transform: translateY(60vh);
+    transition: transform 0.2s ease 0s;
+}
+
+.poster:hover p {
+    transform: translateY(15vh);
+    transition: transform 0.2s ease 0s;
+}
+
+.poster-1 {
+    color: rgba(102, 51, 153, 1);
+}
+
+.four {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: -20px;
+}
+
+.service-list li {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.service-list {
+    opacity: 0.9;
+}
+
+.service-list:hover {
+    opacity: 1;
+}
+
+.last {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    margin-top: 5vh;
+}
+
+.text-shadow {
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.card.small .card-content,
+.card.medium .card-content,
+.card.large .card-content {
+    max-height: 100%;
+    overflow: visible;
+}
+
+/*Footer and parallax content*/
+
+.parallax-container img {
+    width: 100%;
+}
+
+.footer-p {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 996;
+}
+
+.footer-c {
+    margin-top: 5vh;
+}
+
+.card-title-f {
+    font-size: 18px;
+}
+
+.parallax-container {}
+
+.logo-footer {
+    position: absolute;
+    background: rgba(255, 255, 255, .9);
+    height: 100%;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, .4);
+    clear: both;
+}
+
+.logo-footer img {
+    width: 70%;
+    margin-top: 5vh;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+.social i {
+    margin-top: 5vh;
+}
+
+.social a {
+    margin: 1vh;
+    color: #333;
+}
+
+.copy {
+    margin-top: 4vh;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+@media (max-width:600px) {
+    .logo-footer {
+        display: none;
+    }
+}

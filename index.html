@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lotus.am</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="src/css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="navbar-fixed menu-top" id="#menu-top">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo menu-align"><img src="src/img/logo-top.png" width="120px" class="responsive-img" alt=""></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down top-menu-margin right">
+                    <li><a href="http://materializecss.com/parallax-demo.html">Մեր մասին</a></li>
+                    <li><a href="badges.html">Ծրագրեր</a></li>
+                    <li><a href="badges.html">Առողջ սննդակարգ</a></li>
+                    <li><a href="collapsible.html">Հոգեբանական թրեյնինգներ</a></li>
+                    <li><a href="badges.html">Նվեր քարտեր</a></li>
+                    <li><a href="mobile.html">Կապ</a></li>
+                </ul>
+                <ul class="side-nav blue-text" id="mobile-demo">
+                    <li><a href="http://materializecss.com/parallax-demo.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="navbar-fixed" id="menu">
+        <nav>
+            <div class="nav-wrapper white">
+                <a href="#!" class="brand-logo menu-align"><img src="src/img/logo-menu.png" width="120px" class="responsive-img" alt=""></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down right menu-text">
+                    <li><a href="http://materializecss.com/parallax-demo.html">Մեր մասին</a></li>
+                    <li><a href="badges.html">Ծրագրեր</a></li>
+                    <li><a href="badges.html">Առողջ սննդակարգ</a></li>
+                    <li><a href="collapsible.html">Հոգեբանական թրեյնինգներ</a></li>
+                    <li><a href="badges.html">Նվեր քարտեր</a></li>
+                    <li><a href="mobile.html">Կապ</a></li>
+                </ul>
+                <ul class="side-nav blue-text" id="mobile-demo">
+                    <li><a href="http://materializecss.com/parallax-demo.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="header">
+        <div class="slider fullscreen ls">
+            <ul class="slides">
+                <li>
+                    <!-- random image -->
+                    <img src="src/img/1.jpg" alt="">
+
+                    <div class="caption center-align">
+                        <div class="pl"><img src="src/img/logo.png" alt=""></div>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="src/img/3.jpg" alt="">
+                    <!-- random image -->
+                    <div class="caption left-align">
+                        <div class="pn" style="float: right"><img src="src/img/girl.png" alt=""></div>
+                    </div>
+                    <div class="caption left-align">
+                        <h2>Բարի գալուստ ԼՈՏՈՒՍ</h2>
+                        <h5 class="light grey-text text-lighten-3">2006թ. գործող առաջին յոգայի <br> կենտրոնը Հայաստանում: <br>Հայաստանում միակ կենտրոնը <br>թերապեվտիկ
+                            յոգայի կուրսով և <br>անհատական ծրագրերով: <br><br> <strong></strong>2014թ. և 2015թ. ոլորտի առաջատար<strong></strong></h5>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="src/img/2.jpg" alt="">
+                    <!-- random image -->
+                    <div class="caption left-align">
+                        <div class="pn"><img src="src/img/girl-2.png" alt=""></div>
+                    </div>
+                    <div class="caption right-align">
+                        <h3>ԼՈՏՈՒՍ ԿԵՆՏՐՈՆԻ <br>ՇՆՉԱՌԱԿԱՆ <br>ՄԱՐՄՆԱՄԱՐԶՈՒԹՅԱՆ <br>ԷՔՍԿԼՅՈՒԶԻՎ <br>ԹԵՐԱՊԵՎՏԻԿ ԿՈՒՐՍ</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="arrows center">
+            <div class="prev left"><i class="fa fa-angle-left fa-lg white-text"></i></div>
+            <div class="space"></div>
+            <div class="next right"><i class="fa fa-angle-right fa-lg white-text"></i></div>
+        </div>
+    </div>
+
+    <div class="second col s12" id="seconde">
+        <div class="row">
+            <div class="col s12 m6">
+                <h1 class="text-back">Lotus</h1>
+                <h3 class="text-top">Բարի գալուստ</h3>
+                <div class="col-content block">
+                    <img src="favicon.ico" width='20' height='20'>ՀԱՐՍՏԱՑՐԵՔ ՕՐԳԱՆԻԶՄԸ ԹԹՎԱԾՆՈՎ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԱԶԱՏՎԵՔ ԱՎԵԼՈՐԴ ՃԱՐՊԵՐԻՑ, ԿՈՐՑՆԵԼՈՎ Է ԺԱՄՈՒՄ 1700-3000
+                    կկալ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՈՒՂՂԵՔ ՈՂՆԱՇԱՐԸ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԱԶԱՏՎԵՔ ՕՍՏԵՈԽՈՆԴՐՈԶԻՑ ԵՎ ԱՂԱՅԻՆ ԿՈՒՏԱԿՈՒՄՆԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՄԱՐՔԵՔ ՕՐԳԱՆԻԶՄԸ ԹՈՒՅՆԵՐԻՑ ԵՎ ՇԼԱՔԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՎԵՐԱԿԱՆԳՆԵՔ ԿԱՆԱՑԻ ՕՐԳԱՆՆԵՐԻ ԴԻՐՔԵՐԸ, ԱԶԱՏՎԵՔ ԴԱՇՏԱՆԱՅԻՆ
+                    ՑԱՎԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՀԱՆԳՍՏԱՑՐԵՔ ՆՅԱՐԴՐԵԸ ԵՎ ՈՒԺԵՂԱՑՐԵՔ ԲԻՈԴԱՇՏԸ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԼԱՎԱՑՐԵՔ ՆՅՈՒԹԱՓՈԽԱՆԱԿՈՒԹՅՈՒՆԸ , ԱՐՅԱՆ ՇՐՋԱՆԱՌՈՒԹՅՈՒՆԸ
+                    <br/>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="col-content dieta">
+                    <div class="uncolor"><img src="src/content/dieta.png" alt="dieta-lotus" class="responsive-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="second-mobile col s12" id="seconde">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="text-back">Lotus</h1>
+                <h3 class="text-top">Բարի գալուստ</h3>
+                <div class="col-content block">
+                    <img src="favicon.ico" width='20' height='20'>ՀԱՐՍՏԱՑՐԵՔ ՕՐԳԱՆԻԶՄԸ ԹԹՎԱԾՆՈՎ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԱԶԱՏՎԵՔ ԱՎԵԼՈՐԴ ՃԱՐՊԵՐԻՑ, ԿՈՐՑՆԵԼՈՎ Է ԺԱՄՈՒՄ 1700-3000
+                    կկալ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՈՒՂՂԵՔ ՈՂՆԱՇԱՐԸ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԱԶԱՏՎԵՔ ՕՍՏԵՈԽՈՆԴՐՈԶԻՑ ԵՎ ԱՂԱՅԻՆ ԿՈՒՏԱԿՈՒՄՆԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՄԱՐՔԵՔ ՕՐԳԱՆԻԶՄԸ ԹՈՒՅՆԵՐԻՑ ԵՎ ՇԼԱՔԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՎԵՐԱԿԱՆԳՆԵՔ ԿԱՆԱՑԻ ՕՐԳԱՆՆԵՐԻ ԴԻՐՔԵՐԸ, ԱԶԱՏՎԵՔ ԴԱՇՏԱՆԱՅԻՆ
+                    ՑԱՎԵՐԻՑ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ՀԱՆԳՍՏԱՑՐԵՔ ՆՅԱՐԴՐԵԸ ԵՎ ՈՒԺԵՂԱՑՐԵՔ ԲԻՈԴԱՇՏԸ <br/>
+                    <img src="favicon.ico" width='20' height='20'>ԼԱՎԱՑՐԵՔ ՆՅՈՒԹԱՓՈԽԱՆԱԿՈՒԹՅՈՒՆԸ , ԱՐՅԱՆ ՇՐՋԱՆԱՌՈՒԹՅՈՒՆԸ
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="er">
+        <div class="slider car">
+            <ul class="slides white center-align">
+                <li>
+                    <div class="row">
+                        <div class="col caro m3 s12">
+                            <img src="src/content/1.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/2.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/3.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/4.jpg" class="responsive-img" />
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="row">
+                        <div class="col caro m3 s12">
+                            <img src="src/content/5.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/6.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/7.jpg" class="responsive-img" />
+                        </div>
+                        <div class="col caro m3 s12">
+                            <img src="src/content/8.jpg" class="responsive-img" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="third col s12" id="seconde">
+        <h3>
+            <div class="text-desc">ՖԻԶԻՈԹԵՐԱՊԵՎՏԻԿ ՊՐՈՑԵԴՈՒՐԱՆԵՐ ՆԻՀԱՐԵԼՈՒ, ՈՂՆԱՇԱՐՆ ՈՒՂՂԵԼՈՒ, ԱՂԱՅԻՆ ԿՈՒՏԱԿՈՒՄՆԵՐԻՑ ԱԶԱՏՎԵԼՈՒ և ՆՅԱՐԴԵՐԸ ՀԱՆԳՍՏԱՑՆԵԼՈՒ
+                ՀԱՄԱՐ ԱՌԱՋԱՏԱՐ ԱՐԵՎԵԼՅԱՆ ՏԵԽՆՈԼՈԳԻԱՆԵՐՈՎ </div>
+        </h3>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="col-content">
+                    <img src="src/content/9.jpg" alt="" class="materialboxed responsive-img inner-img"></div>
+            </div>
+            <div class="col s12 m4">
+                <div class="fb-page" data-href="https://www.facebook.com/LOTUS.YogaTheraphy/" data-small-header="false" data-adapt-container-width="true"
+                    width="100%" data-hide-cover="false" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/LOTUS.YogaTheraphy/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LOTUS.YogaTheraphy/">LOTUS centre Armenia</a></blockquote>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="col-content b1-img">
+                    <img src="src/content/10.jpg" alt="" class="materialboxed responsive-img inner-img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="four">
+        <div class="row third-margin">
+
+            <div class="col m8 new-margin">
+                <div class="col-content third-margin">
+                    <div class="third-background">
+                        <span class="poster"><h3>ՄԻՈՍՏԻՄՈՒԼՅԱՑԻԱՅԻ ԳՈՏԻ</h3>
+<p>ՈՐՈՎԱՅՆԻ, ԿՈՆՔ-ԱԶԴՐԱՅԻՆ ՇՐՋԱՆԻ, ԹԵՎԵՐԻ ԵՎ ՈՒՍԱԳՈՏՈՒ ՃԱՐՊԱՅԻՆ ՇԵՐՏԵՐԻ, ՑԵԼՅՈՒԼԻՏԻ և ԱՂԱՅԻՆ ԿՈՒՏԱԿՈՒՄՆԵՐԻ ՔԱՅՔԱՅՈՒՄ, ԼՅԱՐԴԻ, ԼԵՂԱՊԱՐԿԻ, ԵՐԻԿԱՄՆԵՐԻ, ԱՂԻՆԵՐԻ, ՍՏԱՄՈՔՍԻ ԵՎ ԿԱՆԱՑԻ ՕՐԳԱՆՆԵՐԻ ԱՇԽԱՏԱՆՔԻ ԲԱՐԵԼԱՎՈՒՄ, ՈՒՍԱԳՈՏՈՒ ՄԿԱՆՆԵՐԻ և ՆՅԱՐԴԵՐԻ ԼԱՐՎԱԾՈՒԹՅԱՆ ՀԱՆՈՒՄ:</p></span>
+                        <img src="src/content/11.jpg" alt="" class="responsive-img inner-effect"></div>
+                </div>
+            </div>
+            <div class="col m4 new-margin">
+                <div class="col-content inner white-text">
+                    <p>
+                        <ul class=" service-list">
+                            <li>ՈՂՆԱՇԱՐԻ ՈՒՂՂՈՒՄ</li>
+                            <li>ԱՂԱՅԻՆ ԿՈՒՏԱԿՈՒՄՆԵՐԻ ՀԵՌԱՑՈՒՄ</li>
+                            <li>ՆՅԱՐԴԵՐԻ ՀԱՆԳՍՏԱՑՈՒՄ</li>
+                            <li>ԱՐՅԱՆ ՇՐՋԱՆԱՌՈՒԹՅԱՆ ԲԱՐԵԼԱՎՈՒՄ</li>
+                            <li>ՕՐԳԱՆԻԶՄԻՑ ԹՈՒՅՆԵՐԻ ԵՎ ՇԼԱՔԵՐԻ ՀԵՌԱՑՈՒՄ</li>
+                            <li>ԼՅԱՐԴԻ ԵՎ ԱՐՅԱՆ ՄԱՔՐՈՒՄ</li>
+                            <li>ԴԻՄԱԴՐՈՂԱԿԱՆՈՒԹՅԱՆ ԲԱՐՁՐԱՑՈՒՄ</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col m4 new-margin">
+                <div class="col-content inner-1 white-text">
+                    <p class="line-h">
+                        ՈՏՆԱԹԱԹԻ/ՁԵՌՔԻ ԱՓԻ ԱԿՈՒՊՈՒՆԿՏՈՒՐԱՅԻՆ ՄԵՐՍՄԱՆ ՍԱՐՔ ՆՅԱՐԴԵՐԻ ՀԱՆԳՍՏԱՑՈՒՄ, ՇԱՔԱՐԱՅԻՆ ԴԻԱԲԵՏԻ ԿԱՆԽԱՐԳԵԼՈՒՄ, ՈՏՆԱԹԱԹԻ ԵՎ ՁԵՌՔԻ
+                        ԱՓԻ ԿԵՆՍՈՒՆԱԿ ԱԿՏԻՎ ԿԵՏԵՐԻ ՄԻՋՈՑՈՎ ԲՈԼՈՐ ՕՐԳԱՆՆԵՐԻ ԱՇԽԱՏԱՆՔԻ ԲԱՐԵԼԱՎՈՒՄ, ՈՏՔԵՐԻ ԵՎ ՁԵՌՔԵՐԻ ՄԵՋ ԱՐՅԱՆ
+                        ՇՐՋԱՆԱՌՈՒԹՅԱՆ ԲԱՐԵԼԱՎՈՒՄ:
+                    </p>
+                </div>
+            </div>
+            <div class="col m8 new-margin">
+                <div class="col-content third-margin">
+                    <div class="third-background">
+                        <span class="poster-1 center"><h5>ՄԵՐՍՈՒՄՆԵՐ՝ ՀԱՆԳՍՏԱՑՆՈՂ , ԲՈՒԺԱԿԱՆ, ԿԻՆԵԶՈԹԵՐԱՊԻԱ</h5></span>
+                        <img src="src/content/12.jpg" alt="" class="responsive-img inner-effect"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="last">
+        <div class="row">
+            <div class="col m4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <span class="card-title activator white-text text-shadow">Թրեյնինգ 1</span>
+                        <img class="activator" src="src/content/13.jpg">
+                    </div>
+                      <div class="card-content">
+                        <p>ՀԱԿԱՍԹՐԵՍ՝ ՏԵԽՆԻԿԱՆԵՐ ԵՎ ԵՆԹԱԳԻՏԱԿՑԱԿԱՆԻ ՄԱՔՐՈՒՄ ԱՆՑՅԱԼԻ ՎԱՏ ՀԻՇՈՂՈՒԹՅՈՒՆՆԵՐԻՑ...</p>
+                        <p><button class="waves-effect waves-light btn activator right purple lighten-1">ԱՎԵԼԻՆ <i class="material-icons right">message</i></button></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Թրեյնինգ 1<i class="material-icons right">close</i></span>
+                        <p>Այս թրեյնինգի ժամանակ տրվում են բազմաթիվ շնչառական, ֆիզիկական և հոգեբանական տեխնիկաներ, որոնք 2-3 րոպեում հանում են տագնապային, հուզական և սթրեսային իրավիճակներից: Նաև տրվում են ռելաքսացիոն տեխնիկաներ, տրմադրությունը բարձրացնող և մեջքի լարվածությունը նվազեղնող վարժություններ: Այնուհետև անցնում են ենթագիտակցականի մաքրմանը անցյալի նեգատիվ հիշողոթյուններից, ցավ պատճառած մարդկանց հետքից և ներքին ու արտաքին կոնֆլիկտների հարթեցման մեթոդներ:
+Տևողությունը՝ 3 ժամ:</p>
+                    </div>
+                </div>
+            </div>
+         <div class="col m4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <span class="card-title activator white-text text-shadow">Թրեյնինգ 2</span>
+                        <img class="activator" src="src/content/14.jpg">
+                    </div>
+                      <div class="card-content">
+                        <p>ՄՏՔԻ ԵՎ ԽՈՍՔԻ ՀԶՈՐ ՈՒԺԸ՝ ՎՏԱՆԳԱՎՈՐ ԽՈՍՔԵՐԸ ԵՎ ՄԵՐ ՎԻԲՐԱՑԻԱՆԵՐԻ ԲԱՐՁՐԱՑՈՒՄԸ...</p>
+<p><button class="waves-effect waves-light btn activator right purple lighten-1">ԱՎԵԼԻՆ <i class="material-icons right">message</i></button></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Թրեյնինգ 2<i class="material-icons right">close</i></span>
+                        <p>Այս թրեյնինգի ժամանակ բացահայտվում է խոսքի և մտքի վիբրացիոն ազդեցությունը առողւության, հաջողության, սիրո և փողի էներգիայի վրա, ցույց են տրվում վիբրացիաները բարձրացնող և էներգիայի հոսքը լավացնող ճանապարհները, ինչպես նաև բլոկերի, վախերի ու արգելակող ծրագրերի, կախվածությունների բացահայտումը և դրանցից ազատման ուղիները: Տրվում են նաև վտանգավոր և թունավոր բառեր/արտահայտությունները, որոնք ծրագրավորում են մեր ենթագիտակցականը և ապագան նեգատիվ ծրագրերով:</p>
+                    </div>
+                </div>
+            </div>
+             <div class="col m4">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <span class="card-title activator white-text text-shadow">Թրեյնինգ 3</span>
+                        <img class="activator" src="src/content/15.jpg">
+                    </div>
+                      <div class="card-content">
+                        <p>ԻՆՔՆԱԱՐԺԵՎՈՐՈՒՄ ՈՒ ՎՍՏԱՀՈՒԹՅԱՆ ԲԱՐՁՐԱՑՈՒՄ, ԻՆՏՈՒԻՑԻԱՅԻ ԶԱՐԳԱՑՈՒՄ և ՆԵՐՔԻՆ ԵՐՋԱՆԿՈՒԹՅԱՆ ԳԱՂՏՆԻՔԸ..</p>
+                        <p><button class="waves-effect waves-light btn activator right purple lighten-1">ԱՎԵԼԻՆ <i class="material-icons right">message</i></button></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">ԹՐԵՅՆԻՆԳ 3<i class="material-icons right">close</i></span>
+                        <p>Այս թրեյնիգի հիմնական թեմաներն են.
+Ինչի համար ենք ապրում ու արարում, մեր մտածելակերպը և կյանքի ուղին, մեր ինքնագնահատակնը ու սերը դեպի ինքներս մեզ: Կյանքի գլխավոր նպատակը և առաքելությունը;Ինչն է խանգարում երջանիկ ու առողջ լինել: Վստահության բարձրացումը; Ինտուիցիայի զարգացումը; Ֆիզիկական մարմնի առողջութունը; Մենթալ և հոգևոր առողջությունը; Նպատակներ և դրանց հասնելու ամենակարճ ճանապարհը:
+Տևողությունը՝ 3 ժամ:</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <div class="parallax-container">
+      <div class="footer-p">
+          <div class="container">
+          <span class="row">
+                  <span class="col m5 right">
+                        <div class="card footer-c">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="src/content/16.png">
+                    </div>
+                      <div class="card-content">
+                        <span class="card-title activator black-text card-title-f">ՇՔԵՂ ԵՎ ՇԱՏ ՕԳՏԱԿԱՐ ՆՎԵՐ ՁԵՐ ՍԻՐԵԼԻ ՄԱՐԴԿԱՆՑ ՀԱՄԱՐ</span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 card-title-f">ՇՔԵՂ ԵՎ ՇԱՏ ՕԳՏԱԿԱՐ ՆՎԵՐ ՁԵՐ ՍԻՐԵԼԻ ՄԱՐԴԿԱՆՑ ՀԱՄԱՐ<i class="material-icons right">close</i></span>
+                        <p>ԼՈՏՈՒՍ ԿԵՆՏՐՈՆԻ ՆՎԵՐ- ՔԱՐՏԵՐԸ 20,000-50,000 դրամ: ՊԱՐԳԵՎԵՔ ԳԵՂԵՑԿՈՒԹՅՈՒՆ, ՀԱՆԳՍՏՈՒԹՅՈՒՆ և ԱՌՈՂՋՈՒԹՅՈՒՆ ՁԵՐ ՄՏԵՐԻՄՆԵՐԻՆ:</p>
+                    </div>
+                </div>
+                  </span>
+                  <span class="col m7 left">
+                      <span class="logo-footer center">
+                        <img class="responsive-img center" src="src/img/logo_new.png" alt="logo-footer">
+                        <p class="cont"><strong><i class="material-icons left">phone</i>(099) 804499</strong></p>
+                        <p class="cont"><strong><i class="material-icons left">phone</i>(093) 804008</strong></p>
+                        <p class="cont"><strong><i class="small material-icons left">location_on</i>Կորյունի 19Ա</strong></p> 
+                        <span class="social">
+                            <span class="row">
+                                <a href=""><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+                            </span>
+                        </span> 
+                        <div class="copy"> &copy2017 Lotus. Designed & Developed by <a href="">N.G</a></div>
+                        </span>                      
+                      </span>
+                  </span>
+              </span>
+          </div>
+      </div>
+      <div class="parallax"><img src="src/content/footer.png"></div>
+    </div>
+   <div class="footer"><div class="copy"> &copy2017 Lotus. Designed & Developed by <a href="">N.G</a></div></div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.8.0/jquery-ui.min.js" integrity="sha256-i1lZLWfq3HA69s3Vuo0Hf5+UhdAftkBVVWFDNfib6Zs="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
